@@ -1,0 +1,49 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="com.example.ifsp.maxbody">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".MainActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity
+            android:name=".Tela_Principal"
+            android:label="Menu" />
+        <activity
+            android:name=".Tela_Refeicoes"
+            android:label="Minhas Refeições" />
+        <activity
+            android:name=".List_Cafe"
+            android:label="Meu café"
+            android:parentActivityName=".Tela_Refeicoes" />
+        <activity android:name=".Add_Alimento" />
+        <activity
+            android:name=".Tela_Config"
+            android:label="Configurações e propriedades"
+            android:parentActivityName=".Tela_Principal"/>
+        <activity android:name=".Add_Qntd" />
+        <activity
+            android:name=".List_Almoco"
+            android:label="Meu almoço"
+            android:parentActivityName=".Tela_Refeicoes" />
+        <activity
+            android:name=".List_CafeTarde"
+            android:label="Meu café da tarde"
+            android:parentActivityName=".Tela_Refeicoes" />
+        <activity
+            android:name=".List_Janta"
+            android:label="Minha janta"
+            android:parentActivityName=".Tela_Refeicoes"></activity>
+    </application>
+
+</manifest>

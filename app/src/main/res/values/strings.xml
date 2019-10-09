@@ -1,0 +1,8 @@
+<resources>
+    <string name="app_name">MaxBody</string>
+    <string name="title_activity_meu_cafe">MeuCafe</string>
+    <string name="title_activity_adicionar_alimento">AdicionarAlimento</string>
+    <string name="title_activity_meu_almoco">MeuAlmoco</string>
+    <string name="title_activity_meu_cafe_tarde">MeuCafeTarde</string>
+    <string name="title_activity_minha_janta">MinhaJanta</string>
+</resources>
